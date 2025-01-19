@@ -7,7 +7,7 @@ public static class HALDecompressor
         RLE_8, // run length encoding 8 bit
         RLE_16, // rle 16 bit
         INC_8, // 8 bit increasing sequence
-        BACKREF_NORMAL, // backref, big endian offset
+        BACKREF_NORMAL, // backreference, big endian offset
         BACKREF_ROTATION,
         BACKREF_REVERSE,
         BACKREF_AGAIN
